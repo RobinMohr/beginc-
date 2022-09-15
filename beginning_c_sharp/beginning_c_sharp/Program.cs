@@ -9,8 +9,9 @@ namespace beginning_c_sharp
     internal class Program
     {
         static void Main(string[] args)
-        {
-            string userName = "Robin";
+        { 
+            Console.WriteLine("wie heißt du?");
+            string userName = Console.ReadLine();
             Console.WriteLine("Hello " + userName + "!");
             Console.ReadLine();
         }
