@@ -84,7 +84,7 @@ namespace beginning_c_sharp
 
             Console.WriteLine("Old String " + entry1 + ":");
             Console.WriteLine("New String " + trimmed_entry1 + ":");
-            */
+            
 
             //skipping first 3 letters
 
@@ -97,8 +97,26 @@ namespace beginning_c_sharp
             Console.WriteLine("Old String " + entry2 + ":");
             Console.WriteLine("New String " + trimmed_entry2 + ":");
 
+            
+            //for-schleife
+
+            for(int i = 1; i <= 1000; i ++)
+            {
+                Console.WriteLine("Number:" + i);
+            }
+            */
+            //while-schleife
+
+            int i = 0;
+            while(i<=10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
             //Prevents the programm from closing until an imput
             Console.ReadLine();
+
         }
     }
 }
