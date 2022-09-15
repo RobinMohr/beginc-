@@ -35,33 +35,45 @@ namespace beginning_c_sharp
             //decimal multiplicator = 1;
             //Console.WriteLine("You are " + height * multiplicator + " meters tall.");
 
-            Console.WriteLine("How old are you?");
-            int age = Convert.ToInt32(Console.ReadLine());
 
-            if (age <= 18 )
-            {
-                if (age == 17)
-                {
-                    Console.WriteLine("You can pass on if you are in company with an adult.");
-                }
-                else
-                {
-                    Console.WriteLine("YOU SHALL NOT PASS!");
-                }
-            }
-            else
-            {
-                if (age >= 28)
-                {
-                    Console.WriteLine("Have fun!");
-                }
-                else
-                {
-                    Console.WriteLine("Please show me your ID!");
-                }
-            }
+            ////ask user age and act accordingly 
+            //Console.WriteLine("How old are you?");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //if (age < 18 )
+            //{
+            //    if (age == 17)
+            //    {
+            //        Console.WriteLine("You can pass on if you are in company with an adult.");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("YOU SHALL NOT PASS!");
+            //    }
+            //}
+
+            //else
+            //{
+            //    if (age >= 28)
+            //    {
+            //        Console.WriteLine("Have fun!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Please show me your ID!");
+            //    }
+            //}
 
 
+            Console.WriteLine("Type something!");
+            string entry = Console.ReadLine();
+
+            string replaced_entry = entry.Replace("U", "G").Replace("u", "g");
+
+            Console.WriteLine("You typed " + entry);
+            Console.WriteLine("I trolled you to say " + replaced_entry);
+
+            //Prevents the programm from closing until an imput
             Console.ReadLine();
         }
     }
