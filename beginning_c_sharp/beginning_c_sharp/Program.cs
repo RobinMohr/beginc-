@@ -10,9 +10,14 @@ namespace beginning_c_sharp
     {
         static void Main(string[] args)
         { 
-            Console.WriteLine("wie heißt du?");
+            Console.WriteLine("What´s your name?");
             string userName = Console.ReadLine();
             Console.WriteLine("Hello " + userName + "!");
+            Console.WriteLine("How old are youß");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("You were born in " + Convert.ToString(2022 - age));
+
+
             Console.ReadLine();
         }
     }
