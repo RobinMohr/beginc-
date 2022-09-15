@@ -98,14 +98,15 @@ namespace beginning_c_sharp
             Console.WriteLine("New String " + trimmed_entry2 + ":");
 
             
-            //for-schleife
+            //for-loop
 
             for(int i = 1; i <= 1000; i ++)
             {
                 Console.WriteLine("Number:" + i);
             }
-            */
-            //while-schleife
+            
+
+            //while-loop
 
             int i = 0;
             while(i<=10)
@@ -113,6 +114,17 @@ namespace beginning_c_sharp
                 Console.WriteLine(i);
                 i++;
             }
+            */
+
+            //do-while-loop
+
+            int i = 0;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            }   while (i <= 10);
+
 
             //Prevents the programm from closing until an imput
             Console.ReadLine();
